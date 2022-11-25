@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+ nav a:hover{
+  background-color: lightblue;
+  color:violet;
+}
+
+nav a:active{
+  background-color: orange;
+  color:yellow;
+}
+
+nav a {
+  text-decoration:none;
+  margin:20px;
+}
+  body{
+    background-image:url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*
+h1, a, p{
+  color:white;
+}
+*/
+
+*{
+  Color:white;
+}
+
+h1:first-letter{
+  font-size:2em;
+  
+}
+a[ target="blank"]{
+  background-color: lightcoral;
+  color:darkblue;
+  
+}
+
+img{
+  width:40%;
+  margin:30px;
+}
